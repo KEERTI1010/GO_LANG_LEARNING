@@ -10,4 +10,8 @@ func main() {
 	var isLogggedIn bool = false
 	fmt.Println(isLogggedIn)
 	fmt.Printf("Varibles is of type : %T \n ", isLogggedIn)
+
+	var smallVal uint8 = 404
+	fmt.Println(smallVal)
+	fmt.Printf("Varibles is of type : %T \n ", smallVal)
 }
