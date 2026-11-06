@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const LoginToken string = "Hehaha" //public
+
 func main() {
 	var userName string = "KKS"
 	fmt.Println(userName)
@@ -20,18 +22,45 @@ func main() {
 	fmt.Printf("Variables is of type : %T \n", smallFloat)
 
 	/*
-	var smallFloat float64 = 255.45555332 //255.45555332
-	fmt.Println(smallFloat)
-	fmt.Printf("Variables is of type : %T \n", smallFloat)
+		var smallFloat float64 = 255.45555332 //255.45555332
+		fmt.Println(smallFloat)
+		fmt.Printf("Variables is of type : %T \n", smallFloat)
 	*/
 
 	// default values and some aliases
 	var anotherVariable int
 	fmt.Println(anotherVariable)
-	fmt.Printf("Variable is of type : %T \n " , anotherVariable)
+	fmt.Printf("Variable is of type : %T \n ", anotherVariable)
 
-	// implicit type 
+	// implicit type
 
 	var website = "google.com"
 	fmt.Println(website)
+
+	// no var style
+
+	numOfUsers := 300000.0
+	fmt.Println(numOfUsers)
+
+	fmt.Println(LoginToken)
+	fmt.Printf("Variable is of type %T \n", LoginToken)
 }
+
+
+/*
+
+OUTPUT 
+
+
+Varibles is of type : uint8 
+255.45555
+Variables is of type : float32 
+0
+Variable is of type : int 
+google.com
+300000
+Hehaha
+Variable is of type string 
+
+
+*/
