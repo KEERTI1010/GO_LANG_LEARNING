@@ -3,6 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("variables")
-}
+	var userName string = "KKS"
+	fmt.Println(userName)
+	fmt.Printf("Varibles is of type : %T \n ", userName)
 
+	var isLogggedIn bool = false
+	fmt.Println(isLogggedIn)
+	fmt.Printf("Varibles is of type : %T \n ", isLogggedIn)
+}
