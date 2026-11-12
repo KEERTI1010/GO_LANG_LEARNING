@@ -16,6 +16,7 @@ func main() {
 	// comma ok syntax => err ok syntax
 
 	input, _ := reader.ReadString('\n')
+	// _,err := reader.ReadString('\n') -> if error is there we can use this
 	fmt.Println("Thankss for Rating , ", input)
 	fmt.Printf("Type of rating is %T ", input)
 }
